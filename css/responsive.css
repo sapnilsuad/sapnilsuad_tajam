@@ -127,7 +127,9 @@
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
-    
+    body{
+      overflow: hidden !important;
+    }
     header{
       height: 100vh !important;
       background-size: cover !important;
